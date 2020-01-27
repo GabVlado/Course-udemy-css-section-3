@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    
+}
+
+#product-overview {
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 528px ;
+    padding: 10px;
+    
+   
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-header{
+    width: 100%;
+    background: rgb(57, 197, 57);
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header_brand {
+    color: green;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 70px);
+}
+.main-nav_items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.main-nav_item {
+    display: inline-block;
+    margin: 0 16px;
+    
+}
+.main-nav_item a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    padding: 3px;
+ 
+}
+/* .main-nav_item a::after{
+   content: " (Link)"; 
+   color: red;
+} */
+
+
+.main-nav_item a:hover,
+.main-nav_item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+
+P::first-letter{
+    color: red;
+    font-size: 20px;
+}
+.main-nav_item-cta a{
+    color: white ;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav_item-cta a:hover,
+.main-nav_item-cta a:active{
+    color: red;
+    background: white;
+    border: none;
+}
